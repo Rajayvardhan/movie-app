@@ -1,13 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    color: white;
+    background-color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+.backgroundimg {
+    width: 100vw;
+    /* height: auto; */
+    /* margin-left: 20px; */
+}
+
+.card {
+    background: black;
+    color: white;
+}
+
+.imgcard {
+    width: 15vw;
+}
+
+.header {
+    background-color: #1d1f25;
+    position: sticky;
+}
+
+.border {
+    border-radius: 10px;
+    border-style: none;
+    width: 55px;
+}
+
+/* styles.css */
+
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8px;
+    margin-right: 20vw;
+}
+
+.form-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 40vw;
+}
+
+.form-group {
+    margin-left: 25vw;
+    width: 50%;
+    padding: 8px;
+}
+
+.form-label {
+    font-size: 0.875rem;
+    color: #ccc;
+    margin-right: 20px;
+}
+
+.form-input {
+    width: 50%;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 1rem;
+    margin-top: 5vh;
+    margin-right: 12vw;
+    color: #777;
+    padding: 10px 15px;
+    transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.passward {
+    margin-left: 0.8vw;
+}
+
+.form-button {
+    display: flex;
+    margin-left: 13vw;
+    color: #fff;
+    background-color: #3f83f8;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.125rem;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.form-link {
+    color: #007acc;
+    /* margin-left: 2vw; */
+
+}
+
+.p {
+    margin-left: 9vw;
+}
+
+/* Customize scrollbar appearance (for WebKit browsers) */
+::-webkit-scrollbar {
+    /* width: 8px;
+    height: 10px; */
+    display: none;
+    /* Width of the scrollbar */
 }
